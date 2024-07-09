@@ -1,0 +1,40 @@
+.inspiration-container{
+    width: 59.375vw;
+    height: 77.5vh;
+    margin: 50px auto 151px;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inspiration-tittle p{
+    font-size: 2rem;
+    font-family: var(--font2);
+    font-weight: var(--fontWeight4);
+    color: var(--color1);
+}
+
+.inspiration-description{
+    font-size: 1rem;
+    font-family: var(--font2);
+    font-weight: var(--fontWeight1);
+    color: var(--color1);
+    opacity: var(--opacity);
+    text-align: center;
+    padding: 0 144px;
+}
+
+.inpiration-video{
+    width: 1140px;
+    height: 614px;
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+}
+
+.inpiration-video iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
