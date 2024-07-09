@@ -114,7 +114,6 @@ header nav button{
     margin: 50px auto 50px;
     padding: 80px 97px;
     border-radius: 16px;
-    border: 2px solid black;
     background-color: rgba(13, 19, 33, 0.02);
 }
 
@@ -141,9 +140,9 @@ header nav button{
 }
 
 .cards{
-    border: 2px solid blue;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
+    gap: 32px;
 }
 
 .cards .card-holder1{
@@ -151,6 +150,7 @@ header nav button{
     gap: 98.83px;
     padding: 48px;
     border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
 
 .card-holder1 .card-holder1-left{
@@ -184,9 +184,104 @@ header nav button{
     font-size: 1.25rem;
     font-family: var(--font2);
     font-weight: var(--fontWeight1);
+    cursor: pointer;
 }
 
 .card-holder1-right{
+    width: 30%;
+    height: 100%;
+}
+
+.card-holder2{
+    display: flex;
+    gap: 98.83px;
+    padding: 48px;
+    border-radius: 16px; 
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+.card-holder2 .card-holder2-left{
+    width: 30%;
+    height: 100%;
+}
+
+.card-holder2 .card-holder2-right{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.card-holder2-right .card-holder2-tittle{
+    font-size: 1.5rem;
+    color: var(--color2);
+    font-weight: var(--fontWeight3);
+    font-family: var(--font2);
+}
+
+.card-holder2-right .card-holder2-description{
+    font-size: 1rem;
+    font-weight: var(--fontWeight1);
+    font-family: var(--font2);
+    opacity: var(--opacity);
+}
+
+.card-holder2-right button{
+    padding: 12px 20px;
+    width: 170px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    background-color: transparent;
+    font-size: 1.25rem;
+    font-family: var(--font2);
+    font-weight: var(--fontWeight1);
+    cursor: pointer;
+}
+
+.card-holder3{
+    display: flex;
+    gap: 98.83px;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+.card-holder3 .card-holder3-left{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.card-holder3-left .card-holder3-tittle{
+    font-size: 1.5rem;
+    color: var(--color2);
+    font-weight: var(--fontWeight3);
+    font-family: var(--font2);
+}
+
+.card-holder3-left .card-holder3-description{
+    font-size: 1rem;
+    font-weight: var(--fontWeight1);
+    font-family: var(--font2);
+    opacity: var(--opacity);
+}
+
+.card-holder3-left button{
+    padding: 12px 20px;
+    width: 170px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    background-color: transparent;
+    font-size: 1.25rem;
+    font-family: var(--font2);
+    font-weight: var(--fontWeight1);
+    cursor: pointer;
+}
+
+.card-holder3-right{
     width: 30%;
     height: 100%;
 }
