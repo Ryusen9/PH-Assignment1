@@ -105,3 +105,88 @@ header nav button{
     padding: 21px 24px;
     border-radius: 8px;
 }
+/* hero section ends here */
+
+/* cards section starts here */
+
+.card1-container{
+    width: 59.375vw;
+    margin: 50px auto 50px;
+    padding: 80px 97px;
+    border-radius: 16px;
+    border: 2px solid black;
+    background-color: rgba(13, 19, 33, 0.02);
+}
+
+.card1-container .card1-main{
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card1-main .card1-tittle p{
+    font-size: 2rem;
+    font-family: var(--font2);
+    font-weight: var(--fontWeight4);
+}
+
+.card1-main .card1-description{
+    font-size: 1rem;
+    font-family: var(--font2);
+    font-weight: var(--fontWeight1);
+    opacity: var(--opacity);
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.cards{
+    border: 2px solid blue;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.cards .card-holder1{
+    display: flex;
+    gap: 98.83px;
+    padding: 48px;
+    border-radius: 16px;
+}
+
+.card-holder1 .card-holder1-left{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.card-holder1-left .card-holder1-tittle{
+    font-size: 1.5rem;
+    color: var(--color2);
+    font-weight: var(--fontWeight3);
+    font-family: var(--font2);
+}
+
+.card-holder1-left .card-holder1-description{
+    font-size: 1rem;
+    font-weight: var(--fontWeight1);
+    font-family: var(--font2);
+    opacity: var(--opacity);
+}
+
+.card-holder1-left button{
+    padding: 12px 20px;
+    width: 170px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    background-color: transparent;
+    font-size: 1.25rem;
+    font-family: var(--font2);
+    font-weight: var(--fontWeight1);
+}
+
+.card-holder1-right{
+    width: 30%;
+    height: 100%;
+}
