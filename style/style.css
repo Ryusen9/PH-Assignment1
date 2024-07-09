@@ -1,3 +1,107 @@
-p{
-    background-color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --font1: "Azeret Mono", monospace;
+    --font2: "Poppins", sans-serif;
+    --opacity: 0.7;
+    --color1: rgb(13, 19, 33);
+    --color2: rgba(13, 19, 33, 0.7);
+    --color3: rgb(255, 255, 255);
+    --fontWeight1: 400;
+    --fontWeight2: 600;
+    --fontWeight3: 700;
+    --fontWeight4: 800;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header section styling */
+header nav{
+    width: 100%;
+    height: 10vh;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+}
+
+header nav p{
+    font-size: 1.75rem;
+    font-weight: var(--fontWeight4);
+    font-family: var(--font1);
+    color: var(--color1);
+}
+
+header nav button{
+    padding: 15px 12px;
+    color: var(--color1);
+    font-size: 1.25rem;
+    font-family: var(--font2);
+    font-weight: var(--fontWeight2);
+    border-radius: 8px;
+    border: 1px solid var(--color1);
+    opacity: 0.8;
+    background-color: transparent;
+    cursor: pointer;
+    
+}
+
+/* hero section starts here */
+
+.hero{
+    width: 100%;
+    height: 65.2vh;
+    margin-top: 98px;
+    background-image: url("../assets/Hero-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero img{
+    width: 240.28px;
+    height: 240px;
+}
+
+.hero .hero-tittle1 p{
+    font-size: 3rem;
+    font-family: var(--font1);
+    color: var(--color1);
+    font-weight: var(--fontWeight4);
+    text-align: center;
+}
+
+.hero .hero-description p{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: var(--fontWeight1);
+    opacity: var(--opacity);
+    font-family: var(--font2);
+}
+
+.hero .clickable-link{
+    margin-top: 32px;
+}
+
+.hero .clickable-link a{
+    font-size: 1.25rem;
+    text-decoration: none;
+    font-family: var(--font2);
+    color: var(--color3);
+    background-color: var(--color1);
+    padding: 21px 24px;
+    border-radius: 8px;
 }
