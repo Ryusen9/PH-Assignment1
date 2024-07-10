@@ -241,3 +241,64 @@
 .description-card3 a:hover::after{
     scale: 1 1;
 }
+
+/* support segment starts here */
+
+.support-container{
+    width: 59.375vw;
+    height: 31.4vh;
+    margin: 90px auto;
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.452)), url("../assets/handshake.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.support-container .support-tittle p{
+    font-size: 2rem;
+    font-family: var(--font1);
+    font-weight: var(--fontWeight3);
+    color: var(--color3);
+}
+
+.support-container .support-description p{
+    font-size: 1rem;
+    font-family: var(--font2);
+    font-weight: var(--fontWeight1);
+    color: var(--color3);
+    opacity: var(--opacity);
+}
+
+.support-input{
+    display: flex;
+    gap: 16px;
+}
+
+.support-input input{
+    padding: 19px 20px;
+    border-radius: 8px;
+    width: 548px;
+    font-size: 1rem;
+    font-family: var(--font2);
+    color: var(--color1);
+    border: none;
+    outline: none;
+}
+
+.support-input button{
+    padding: 19px 20px;
+    border-radius: 8px;
+    width: 120px;
+    font-size: 1rem;
+    font-family: var(--font2);
+    color: var(--color1);
+    background-color: var(--color3);
+    border: none;
+    cursor: pointer;
+}
