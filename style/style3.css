@@ -302,3 +302,29 @@
     border: none;
     cursor: pointer;
 }
+/* support segment ends here */
+
+/* footer section starts here */
+
+.footer-container{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 150px;
+}
+
+.footer-container .footer-text p{
+    font-size: 1.25rem;
+    font-weight: var(--fontWeight3);
+    font-family: var(--font2);
+    color: var(--color1);
+}
+
+.footer-social{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+}
