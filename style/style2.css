@@ -115,13 +115,14 @@
     text-decoration: none;
     position: relative;
     overflow: hidden;
+    width: 100px;
 }
 
 .target-card1 a::after{
     content: '';
     position: absolute;
     height: 2px;
-    width: 33%;
+    width: 100%;
     background: var(--color1);
     bottom: 0;
     left: 0;
@@ -172,13 +173,14 @@
     text-decoration: none;
     position: relative;
     overflow: hidden;
+    width: 100px;
 }
 
 .target-card2 a::after{
     content: '';
     position: absolute;
     height: 2px;
-    width: 33%;
+    width: 100%;
     background: var(--color1);
     bottom: 0;
     left: 0;
@@ -228,6 +230,7 @@
     color: var(--color1);
     text-decoration: none;
     position: relative;
+    width: 100px;
     overflow: hidden;
 }
 
@@ -235,7 +238,7 @@
     content: '';
     position: absolute;
     height: 2px;
-    width: 33%;
+    width: 100%;
     background: var(--color1);
     bottom: 0;
     left: 0;

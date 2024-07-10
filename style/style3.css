@@ -1,0 +1,243 @@
+/* my next target section starts here */
+
+.next-target-container{
+    width: 59.375vw;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.next-target-tittle p{
+    font-size: 1.5rem;
+    font-family: var(--font2);
+    font-weight: var(--fontWeight4);
+    color: var(--color1);
+}
+
+.next-target-description p{
+    font-size: 1rem;
+    font-family: var(--font2);
+    font-weight: var(--fontWeight1);
+    color: var(--color1);
+    opacity: var(--opacity);
+    text-align: center;
+}
+
+.next-target-cards{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    width: 100%;
+    gap: 24px;
+}
+
+.next-target-card1{
+    width: 1140px;
+    height: 219px;
+    display: flex;
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    gap: 24px;
+    background-color: var(--color3);
+    justify-content: center;
+    align-items: center;
+}
+
+.next-target-card1 img{
+    width: 94.78px;
+    height: 84.41px;
+}
+
+.description-card1{
+    width: 941.22px;
+    height: 139px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+}
+
+.description-card1 h3{
+    font-size: 1.5rem;
+    font-family: var(--font1);
+    font-weight: var(--fontWeight4);
+    color: var(--color1);
+}
+
+.description-card1 p{
+    font-size: 1rem;
+    font-family: var(--font2);
+    color: var(--color1);
+    opacity: var(--opacity);
+    font-weight: var(--fontWeight1);
+}
+
+.description-card1 a{
+    font-size: 1rem;
+    font-family: var(--font2);
+    color: var(--color1);
+    font-weight: var(--fontWeight1);
+    text-decoration: none;
+    margin-top: 16px;
+    position: relative;
+    overflow: hidden;
+    width: 100px;
+}
+
+.description-card1 a::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: var(--color1);
+    bottom: 0;
+    left: 0;
+    scale: 0 1;
+    transition: all 250ms ease;
+}
+
+.description-card1 a:hover::after{
+    scale: 1 1;
+}
+
+.next-target-card2{
+    width: 1140px;
+    height: 219px;
+    display: flex;
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    gap: 24px;
+    background-color: var(--color3);
+    justify-content: center;
+    align-items: center;
+}
+
+.next-target-card2 img{
+    width: 94.78px;
+    height: 84.41px;
+}
+
+.description-card2{
+    width: 941.22px;
+    height: 139px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+}
+
+.description-card2 h3{
+    font-size: 1.5rem;
+    font-family: var(--font1);
+    font-weight: var(--fontWeight4);
+    color: var(--color1);
+}
+
+.description-card2 p{
+    font-size: 1rem;
+    font-family: var(--font2);
+    color: var(--color1);
+    opacity: var(--opacity);
+    font-weight: var(--fontWeight1);
+}
+
+.description-card2 a{
+    font-size: 1rem;
+    font-family: var(--font2);
+    color: var(--color1);
+    font-weight: var(--fontWeight1);
+    text-decoration: none;
+    margin-top: 16px;
+    position: relative;
+    overflow: hidden;
+    width: 100px;
+}
+
+.description-card2 a::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: var(--color1);
+    bottom: 0;
+    left: 0;
+    scale: 0 1;
+    transition: all 250ms ease;
+}
+
+.description-card2 a:hover::after{
+    scale: 1 1;
+}
+
+.next-target-card3{
+    width: 1140px;
+    height: 219px;
+    display: flex;
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    gap: 24px;
+    background-color: var(--color3);
+    justify-content: center;
+    align-items: center;
+}
+
+.next-target-card3 img{
+    width: 94.78px;
+    height: 84.41px;
+}
+
+.description-card3{
+    width: 941.22px;
+    height: 139px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+}
+
+.description-card3 h3{
+    font-size: 1.5rem;
+    font-family: var(--font1);
+    font-weight: var(--fontWeight4);
+    color: var(--color1);
+}
+
+.description-card3 p{
+    font-size: 1rem;
+    font-family: var(--font2);
+    color: var(--color1);
+    opacity: var(--opacity);
+    font-weight: var(--fontWeight1);
+}
+
+.description-card3 a{
+    font-size: 1rem;
+    font-family: var(--font2);
+    color: var(--color1);
+    font-weight: var(--fontWeight1);
+    text-decoration: none;
+    margin-top: 16px;
+    position: relative;
+    overflow: hidden;
+    width: 100px;
+}
+
+.description-card3 a::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: var(--color1);
+    bottom: 0;
+    left: 0;
+    scale: 0 1;
+    transition: all 250ms ease;
+}
+
+.description-card3 a:hover::after{
+    scale: 1 1;
+}
