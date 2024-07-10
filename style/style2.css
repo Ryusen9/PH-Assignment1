@@ -38,3 +38,211 @@
     height: 100%;
     border-radius: 16px;
 }
+
+/* inpiration section ends here */
+
+/* my current target starts here */
+
+.target-container{
+    height: 46vh;
+    width: 59.375vw;
+    margin: 30px auto 111px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.target-tittle{
+    font-size: 2rem;
+    font-family: var(--font2);
+    font-weight: var(--fontWeight4);
+    color: var(--color1);
+}
+
+.target-description{
+    font-size: 1rem;
+    font-family: var(--font2);
+    font-weight: var(--fontWeight1);
+    color: var(--color1);
+    opacity: var(--opacity);
+    text-align: center;
+}
+
+.target-card{
+    width: 100%;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.target-card1{
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.target-card1 img{
+    height: 56px;
+    width: 56px;
+}
+
+.target-card1-tittle{
+    font-size: 1.5rem;
+    font-family: var(--font2);
+    color: var(--color1);
+    font-weight: var(--fontWeight4);
+}
+
+.target-card1-description{
+    font-size: 1rem;
+    font-family: var(--font2);
+    color: var(--color1);
+    font-weight: var(--fontWeight1);
+    opacity: var(--opacity);
+}
+
+.target-card1 a{
+    font-size: 1rem;
+    font-family: var(--font2);
+    font-weight: var(--fontWeight3);
+    color: var(--color1);
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.target-card1 a::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 33%;
+    background: var(--color1);
+    bottom: 0;
+    left: 0;
+    scale: 0 1;
+    transition: all 250ms ease;
+}
+
+.target-card1 a:hover::after{
+    scale: 1 1;
+}
+
+.target-card2{
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05)
+}
+
+.target-card2 img{
+    height: 56px;
+    width: 56px;
+}
+
+.target-card2-tittle{
+    font-size: 1.5rem;
+    font-family: var(--font2);
+    color: var(--color1);
+    font-weight: var(--fontWeight4);
+}
+
+.target-card2-description{
+    font-size: 1rem;
+    font-family: var(--font2);
+    color: var(--color1);
+    font-weight: var(--fontWeight1);
+    opacity: var(--opacity);
+}
+
+.target-card2 a{
+    font-size: 1rem;
+    font-family: var(--font2);
+    font-weight: var(--fontWeight3);
+    color: var(--color1);
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.target-card2 a::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 33%;
+    background: var(--color1);
+    bottom: 0;
+    left: 0;
+    scale: 0 1;
+    transition: all 250ms ease;
+}
+
+.target-card2 a:hover::after{
+    scale: 1 1;
+}
+
+.target-card3{
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.target-card3 img{
+    height: 56px;
+    width: 56px;
+}
+
+.target-card3-tittle{
+    font-size: 1.5rem;
+    font-family: var(--font2);
+    color: var(--color1);
+    font-weight: var(--fontWeight4);
+}
+
+.target-card3-description{
+    font-size: 1rem;
+    font-family: var(--font2);
+    color: var(--color1);
+    font-weight: var(--fontWeight1);
+    opacity: var(--opacity);
+}
+
+.target-card3 a{
+    font-size: 1rem;
+    font-family: var(--font2);
+    font-weight: var(--fontWeight3);
+    color: var(--color1);
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.target-card3 a::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 33%;
+    background: var(--color1);
+    bottom: 0;
+    left: 0;
+    scale: 0 1;
+    transition: all 250ms ease;
+}
+
+.target-card3 a:hover::after{
+    scale: 1 1;
+}
